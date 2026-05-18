@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Somehow A Website</title>
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header>
+    <h1>SOMEHOW A WEBSITE</h1>
+    <p><em>"this assignment got out of hand"</em></p>
+    <nav>
+      <a href="stuff.html">Go to Stuff I Like &rarr;</a>
+    </nav>
+    <hr />
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <p>Hello.</p>
+      <p>I am <strong>Jannce Renzen K. Cortes</strong>.</p>
+      <p>
+        Chill guy, very chill and just chill, people say i'm tall but I may be taller than Wembanyama.
+      </p>
+      <figure>
+        <img
+          src="Pic.jpg"
+          alt="Jannce Renzen K. Cortes"
+          width="300"
+        />
+        <figcaption>
+          (This is me I think)
+        </figcaption>
+      </figure>
+    </section>
+
+    <hr />
+
+    <!-- IMPORTANT STATISTICS TABLE -->
+    <section id="stats">
+      <h2>IMPORTANT STATISTICS</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Current Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sleep Schedule</td>
+            <td>inconsistent</td>
+          </tr>
+          <tr>
+            <td>Attention Span</td>
+            <td>depends</td>
+          </tr>
+          <tr>
+            <td>Productivity</td>
+            <td>seasonal</td>
+          </tr>
+          <tr>
+            <td>Water Intake</td>
+            <td>improving</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- THINGS I CURRENTLY LIKE -->
+    <section id="likes">
+      <h2>THINGS I CURRENTLY LIKE</h2>
+      <ul>
+        <li>Sports</li>
+        <li>Walking</li>
+        <li>Food and cold drinks</li>
+        <li>Finally understanding something after 2 hours</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <!-- MEDIA SECTION -->
+    <section id="media">
+      <h2>MEDIA SECTION</h2>
+
+      <article>
+        <h3>This is a very important message</h3>
+        <p>Please give this your full and undivided attention.</p>
+
+        <!-- AUDIO: John Cena Bing Chilling -->
+        <h4>Audio Evidence:</h4>
+        <p>
+          The following audio clip is of significant cultural and historical importance.
+          Please adjust your volume accordingly.
+        </p>
+        <audio controls>
+          <source src="Cena.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <p><em>(The legendary "Bing Chilling" audio.)</em></p>
+      </article>
+
+      <article>
+        <h3>Important Visual Documentation:</h3>
+        <p>The following footage has been carefully selected for educational purposes.</p>
+
+        <!-- VIDEO: Chinese dance -->
+        <video width="400" controls>
+          <source src="Video.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+        <p><em>(Demonstrating traditional Chinese dance moves.)</em></p>
+      </article>
+    </section>
+
+    <hr />
+
+    <!-- FORM: Leave Your Words of Wisdom -->
+    <section id="form">
+      <h2>LEAVE YOUR WORDS OF WISDOM</h2>
+      <p>
+        Got something to say? A life tip? A random thought? Drop it here.
+        It will be read. (Probably.)
+      </p>
+
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Who Are You</legend>
+
+          <label for="name">Your Name:</label><br />
+          <input type="text" id="name" name="name" placeholder="Your name (or alias)" required /><br /><br />
+
+          <label for="email">Email Address:</label><br />
+          <input type="email" id="email" name="email" placeholder="yourname@email.com" /><br /><br />
+
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Your Wisdom</legend>
+
+          <label for="wisdom">Words of Wisdom:</label><br />
+          <textarea id="wisdom" name="wisdom" rows="4" cols="50" placeholder="Share your unsolicited advice here..."></textarea><br /><br />
+
+          <label for="mood">How are you feeling right now?</label><br />
+          <select id="mood" name="mood">
+            <option value="">-- Select a mood --</option>
+            <option value="great">Great, thriving</option>
+            <option value="okay">Okay, surviving</option>
+            <option value="tired">Tired, always tired</option>
+            <option value="chaotic">Chaotic, no notes</option>
+            <option value="unspecified">Unspecified</option>
+          </select><br /><br />
+
+          <label>Rate this webpage:</label><br />
+          <input type="radio" id="r1" name="rating" value="1" /> <label for="r1">1 - Needs work</label><br />
+          <input type="radio" id="r2" name="rating" value="2" /> <label for="r2">2 - It exists</label><br />
+          <input type="radio" id="r3" name="rating" value="3" /> <label for="r3">3 - Acceptable</label><br />
+          <input type="radio" id="r4" name="rating" value="4" /> <label for="r4">4 - Pretty good</label><br />
+          <input type="radio" id="r5" name="rating" value="5" /> <label for="r5">5 - Life-changing</label><br /><br />
+
+          <label>Things you also like (check all that apply):</label><br />
+          <input type="checkbox" id="sports" name="interests" value="sports" />
+          <label for="sports">Sports</label><br />
+          <input type="checkbox" id="food" name="interests" value="food" />
+          <label for="food">Food</label><br />
+          <input type="checkbox" id="walking" name="interests" value="walking" />
+          <label for="walking">Walking for no reason</label><br />
+          <input type="checkbox" id="overthinking" name="interests" value="overthinking" />
+          <label for="overthinking">Overthinking</label><br /><br />
+
+          <label for="dob">Your Birthday (optional, for solidarity):</label><br />
+          <input type="date" id="dob" name="dob" /><br /><br />
+
+        </fieldset>
+
+        <br />
+        <input type="submit" value="Submit Wisdom" />
+        <input type="reset" value="Nevermind, Clear All" />
+
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- EXTERNAL LINKS -->
+    <section id="links">
+      <h2>LINKS</h2>
+      <p>Find me on the internet (if you dare):</p>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/janncerenzen.cortes" target="_blank" rel="noopener noreferrer">
+            Facebook
+          </a>
+          &mdash; where I occasionally exist
+        </li>
+        <li>
+          <a href="https://github.com/janncecortes-art" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          &mdash; where my code lives (don't look too closely)
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <hr />
+  <footer>
+    <p>
+      <a href="stuff.html">Go to Stuff I Like</a>
+      &nbsp;|&nbsp;
+      <a href="#about">Back to Top</a>
+    </p>
+    <p><small>&copy; 2025 Jannce Renzen K. Cortes &mdash; made with questionable time management</small></p>
+  </footer>
+
+</body>
+</html>
