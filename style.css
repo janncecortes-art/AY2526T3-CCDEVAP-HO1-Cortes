@@ -1,0 +1,380 @@
+/* ========== GLOBAL STYLES ========== */
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f5f5f0;
+}
+
+/* Heading styles */
+h1 {
+    color: #2c5f2d;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2c5f2d;
+    border-left: 5px solid #2c5f2d;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #4a7c59;
+    font-weight: bold;
+}
+
+h4 {
+    color: #666;
+    font-style: italic;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* Link styling */
+a {
+    color: #2c5f2d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6b35;
+    text-decoration: underline;
+}
+
+/* List styling */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    border-top: 2px dotted #ccc;
+    margin: 30px 0;
+}
+
+/* ========== HEADER & NAVIGATION STYLES ========== */
+
+header {
+    background-color: #e8f0e8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header p {
+    font-style: italic;
+    color: #666;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    background-color: #2c5f2d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ff6b35;
+    color: white;
+    text-decoration: none;
+}
+
+/* ========== SECTION STYLES ========== */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ========== FIGURE & IMAGE STYLES ========== */
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 8px;
+}
+
+/* ========== MEDIA STYLES (Audio & Video) ========== */
+
+audio, video {
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* ========== TABLE STYLES ========== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c5f2d;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e8f0e8;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c5f2d;
+}
+
+tfoot td {
+    background-color: #e8f0e8;
+    font-style: italic;
+    text-align: center;
+}
+
+/* ========== FORM STYLES ========== */
+
+form {
+    background-color: #fafaf5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2c5f2d;
+    padding: 0 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, textarea {
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2c5f2d;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #2c5f2d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6b35;
+}
+
+input[type="reset"] {
+    background-color: #999;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+input[type="reset"]:hover {
+    background-color: #666;
+}
+
+/* ========== LINK SECTION STYLES ========== */
+
+#links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#links a {
+    background-color: #e8f0e8;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+#links a:hover {
+    background-color: #2c5f2d;
+    color: white;
+    text-decoration: none;
+}
+
+/* ========== FOOTER STYLES ========== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f0e8;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #2c5f2d;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff6b35;
+}
+
+/* ========== CLASS SELECTORS ========== */
+
+/* For highlighting important text */
+.highlight {
+    background-color: #ffffcc;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+/* For centering text */
+.text-center {
+    text-align: center;
+}
+
+/* For colored text */
+.text-accent {
+    color: #ff6b35;
+}
+
+/* For subtle borders */
+.border-subtle {
+    border: 1px solid #eee;
+}
+
+/* ========== ADDITIONAL STUFF ========== */
+
+/* Styling for the time-wasters list on stuff.html */
+#timewasters ol {
+    background-color: #fafaf5;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+}
+
+/* Styling for the reviews table specifically */
+#reviews table {
+    font-size: 0.95em;
+}
+
+#reviews th {
+    background-color: #4a7c59;
+}
+
+/* Favorite links section on stuff.html */
+#favlinks ul {
+    list-style-type: square;
+}
+
+#favlinks a {
+    color: #2c5f2d;
+    font-weight: bold;
+}
+
+#favlinks a:hover {
+    color: #ff6b35;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* For smaller screens like mobile devices */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+    
+    table {
+        font-size: 0.85em;
+    }
+    
+    th, td {
+        padding: 6px;
+    }
+    
+    input, select, textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* For tablets */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        max-width: 95%;
+    }
+}
